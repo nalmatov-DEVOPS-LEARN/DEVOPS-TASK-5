@@ -1,0 +1,15 @@
+[Unit]
+Description=hello world web application
+After=network.target
+StartLimitInterval=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=nalmatov
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /opt/hello-world/index.py
+
+[Install]
+WantedBy=multi-user.target

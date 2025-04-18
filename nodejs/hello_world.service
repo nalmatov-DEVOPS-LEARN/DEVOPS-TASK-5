@@ -1,0 +1,14 @@
+[Unit]
+Description=hello world web application
+After=network.target
+StartLimitInterval=0
+
+[Service]
+Type=simple
+Restart=always 
+RestartSec=1
+User=nalmatov
+ExecStart=/usr/bin/node /opt/hello-world/index.ts
+
+[Install]
+WantedBy=multi-user.target
