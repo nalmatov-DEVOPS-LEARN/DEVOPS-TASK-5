@@ -2,9 +2,7 @@
 
 ## FOR RUNNING
 
-### Choose Python or NodeJS!
-
-##### Installing languages (Python | NodeJS)
+### Installing language (Python or NodeJS)
 
 - NodeJS & NPM:
 
