@@ -34,7 +34,7 @@
 
 ---
 
-###
+### Running web application
 
 > [!IMPORTANT]
 > Select language and be in its root directory! `cd ./python` or `cd ./nodejs`
