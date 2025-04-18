@@ -4,7 +4,7 @@
 
 ### Choose Python or NodeJS!
 
-#### Installing languages (Python | NodeJS)
+##### Installing languages (Python | NodeJS)
 
 - NodeJS & NPM:
 
