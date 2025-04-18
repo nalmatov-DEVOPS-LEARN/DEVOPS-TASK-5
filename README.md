@@ -7,15 +7,15 @@
 - NodeJS & NPM:
 
   - ```bash
-    $ curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+    curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
     ```
 
   - ```bash
-    $ sudo bash nodesource_setup.sh
+    sudo bash nodesource_setup.sh
     ```
 
   - ```bash
-    $ sudo apt install nodejs
+    sudo apt install nodejs
     ```
 
   ***
@@ -23,11 +23,11 @@
 - Python
 
   - ```bash
-    $ sudo apt update
+    sudo apt update
     ```
 
   - ```bash
-    $ sudo apt install python
+    sudo apt install python
     ```
 
 ---
@@ -42,17 +42,17 @@
 1. Add service to systemd!
 
 ```bash
-$ sudo cp ./hello_world.service /lib/systemd/system/hello_world.service
+sudo cp ./hello_world.service /lib/systemd/system/hello_world.service
 ```
 
 2. Start `hello-world` service!
 
 ```bash
-$ sudo systemctl start hello_world.service
+sudo systemctl start hello_world.service
 ```
 
 3. Enable `hello-world` service!
 
 ```bash
-$ sudo systemctl start hello_world.service
+sudo systemctl start hello_world.service
 ```
